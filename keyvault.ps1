@@ -79,4 +79,4 @@ spec:
 "@
 
 # Deploy the yamls 
-$k8sAzureIdentityandBinding | kubectl apply -f -
+$k8sAzureIdentityandBinding | kubectl apply -n=development -f -
