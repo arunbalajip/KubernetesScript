@@ -241,10 +241,10 @@ spec:
         args:
           - "--cloudconfig=/etc/kubernetes/azure.json"
           - "--logtostderr"
-		  - "--forceNamespaced"
+          - "--forceNamespaced"
         env:
-		- name: FORCENAMESPACED
-            value: "true"
+	- name: FORCENAMESPACED
+          value: "true"
         - name: MIC_POD_NAMESPACE
           valueFrom:
             fieldRef:
