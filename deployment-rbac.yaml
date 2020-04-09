@@ -128,7 +128,7 @@ spec:
           - "--node=$(NODE_NAME)"
           - "--forceNamespaced"
         env:
-        - name: FORCENAMESPACED
+          - name: FORCENAMESPACED
             value: "true"
           - name: HOST_IP
             valueFrom:
