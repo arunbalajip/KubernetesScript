@@ -1,1 +1,0 @@
- .\keyvault.ps1 MMLS-AKS-DEV lrbridgesidentitydev requires-vault LRBridges-AKS-DEV mmls-perspektivo-dev perspektivo-kv-dev
